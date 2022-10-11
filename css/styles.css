@@ -39,7 +39,7 @@ body {
 /* TITLE SECTION */
 
 .bg-t {
-    background-image: url("/images/back.jpg");
+    background-image: url("../images/back.jpg");
     width: 100%;
     position: relative;
     background-size: cover;

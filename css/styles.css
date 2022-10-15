@@ -23,6 +23,15 @@ body {
 .nav-brand {
     width: 40%;
 }
+.title-banner{
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ban{
+    position: relative;
+    left: 30%;
+}
 
 .nav-item {
     padding: 0px 50px;
@@ -32,7 +41,7 @@ body {
     
 }
 .ticket{
-    width: 10px;
+    width: 100pxx;
 }
 
 
@@ -53,7 +62,6 @@ body {
     width: 38%;
     margin: 20px auto;
     position: relative;
-    left: 500px;
 }
 
 .caption {
@@ -112,11 +120,6 @@ body {
     font-size: 2rem;
     color: #603813;
     line-height: 2;
-
-}
-
-.row{
-    padding: 5% 0; 
 }
 
 p {
@@ -153,6 +156,9 @@ p {
     padding: 20px;
     font-size: 25px;
     letter-spacing: 10px;
+}
+img{
+    width: 100%;
 }
 
 .bottom_ticket_link {
@@ -224,3 +230,14 @@ p {
     opacity: 0.6;
     filter: alpha(opacity=60)#FF9C00;
   }
+
+  @media screen and (max-width: 990px) {
+    .ticket{
+        width: 100px;
+        margin-left: 40px;
+    }
+    .image_wraps{
+        margin-bottom: 20px;
+    }
+  }
+  

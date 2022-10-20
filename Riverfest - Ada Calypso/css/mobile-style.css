@@ -1,0 +1,124 @@
+
+/* PALM-TOP PCs */
+@media only screen and (max-width: 1028px){
+
+   /* RESPONSIVE NAVBAR */
+
+   button.navbar-toggler {
+      padding: 0px;
+      border: 0px;
+      width: 60px;
+      height: 60px;
+      margin: 12px;
+   }
+
+   .ticket img{
+      width: 10%; 
+      margin: 12px;
+  }
+  .container.ticket{
+   margin: 0px;
+  }
+}
+
+/* TABLET MODES */
+@media only screen and (max-width: 768px){
+
+  /*  body{
+      overflow-x: hidden;
+   } */
+
+   /* RESPONSIVE NAVBAR */
+     header .navbar-brand{
+        padding-left: 1rem;
+     }
+
+     header .navbar-toggler{
+        margin: 1.2em;
+     }
+
+     .ticket img{
+        width: 10%; 
+    }
+/* BACKGROUND IMAGE IN HEADER SECTION */
+     .masthead{
+       height: 100vh;
+       overflow:hidden;
+     }
+
+     /* MEDIA SECTION */
+
+     .sponsor_logo {
+      width: 15%;
+      margin: 15px 10px 25px;
+      
+  }
+
+  /* BANNER_LOGO */
+
+  .banner_image{
+    position: absolute;
+    margin: 155px auto;
+    left: 10%;
+    width: 85%;
+  }
+
+  /* FOOTER */
+
+  footer h2, h4{
+   font-family: var(--Slackey);
+   padding: 20px;
+   font-weight: bold;
+   font-size: 1rem;
+}
+
+}
+
+/* MOBILE-PHONES */
+@media only screen and (max-width: 450px){
+
+   body{
+      overflow-x: hidden;
+   }
+
+   /* NAVBAR */
+   button.navbar-toggler {
+      padding: 0px;
+      border: 0px;
+      width: 60px;
+      height: 60px;
+      margin: 12px;
+   }
+
+   .navbar-brand {
+      width: 196px;
+   }
+
+   /* HEADER SECTION  */
+   .masthead{
+      height: 95.5vh;
+      overflow:hidden;
+    }
+
+    .banner_image{
+      position: absolute;
+      margin: 235px auto;
+      right: 35%;
+  }
+
+
+   /* FOOTER SECTION */
+   footer .col-lg-3 .col-md-6{
+      margin-bottom: 15px;
+      padding-left: 0px;
+   }
+
+   .ticket img{
+      width: 65px; 
+  }
+
+  footer h2,h4{
+   padding-left: 0px;
+  }
+
+}

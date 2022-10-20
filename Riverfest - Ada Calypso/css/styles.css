@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Slackey&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section {
+    overflow-x: hidden;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #603813;
+}
+
+:root {
+    --Slackey: 'Slackey', cursive;
+    --Rock-Salt: 'Rock Salt', cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #FEB101, #FE7435);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+/* header {
+    opacity: rgba(0, 0, 0, 0.2);
+} */
+
+
+
+/* NAVBAR STYLES */
+
+header .navbar a {
+    font-family: var(--Slackey);
+    font-size: 0.9em;
+    color: #F4F5DB;
+}
+
+.masthead {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header .nav-item:last-child {
+    padding-right: 5.5em;
+}
+
+header .nav-item {
+    padding: 1.5em;
+}
+
+header .navbar-brand {
+    padding-left: 3rem;
+
+}
+
+header .navbar .navbar-brand img {
+    width: 40%;
+}
+
+.ticket img{
+    width: 30%; 
+}
+
+.ticket i {
+    padding-right: 0.1rem;
+}
+
+header .nav-link:hover {
+    color: #fff468;
+}
+
+header .nav-link:active, :visited {
+    color: #fff468;
+}
+
+header .nav-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.ticket span {
+    font-family: var(--Slackey);
+}
+
+
+/* BANNER IMAGE IN HEADER SECTION */
+
+.banner_image{
+    position: absolute;
+    margin: 200px auto;
+    right: 35%;
+}
+
+/* header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+} */
+
+/* header .row .col-md-6 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rock-Salt);
+} */
+
+/* header .row .col-md-5 img {
+    width: 50%;
+} */
+
+/* header .container .col-md-6 span {
+    padding: 1vmin;
+    letter-spacing: 4px;
+    font-size: 3.5vmin;
+} */
+
+/* header .container .col-md-6 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+} */
+
+
+/*/*//*/*//* MAINPAGE SECTIONS *//*/*//*/*/
+
+/* EXPERIENCE SECTION */
+
+.experience .container {
+    padding: 3% 9%;
+}
+
+.experience .col-md-6 img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 0.2em;
+    border: 1px solid #000000;
+}
+
+.experience .container h2 {
+    font-size: 3.5vmin;
+    font-weight: bold;
+    font-family: var(--Rock-Salt);
+    padding: 3.5em 0em .5em;
+}
+
+/* MEDIA PARTNERS */
+
+#media h2 {
+    font-family: var(--Rock-Salt);
+    font-weight: bold;
+    text-align: left;
+    font-size: 2rem;
+    padding: 25px;
+}
+
+.sponsor_logo {
+    width: 9%;
+    margin: 30px 20px 50px;
+    
+}
+
+#media .container {
+    padding: 7% 0%;
+}
+
+/* ABOUT SECTION */
+
+.about{
+    padding: 8vmin 0;
+}
+
+.about .container .about-content{
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.about .container .about-content h2{
+    font-size: 3.5vmin;
+    font-weight: bold;
+    font-family: var(--Rock-Salt);
+    padding: 1.5em 0em 1.2em;
+    text-align: center;
+}
+
+.about.about-content p{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* MAP */
+
+#map{
+    background-color: #f3a000;
+    padding: 7% 15%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+}
+
+#map .container h3{
+    font-family: var(--Rock-Salt);
+    font-weight: bold;
+    text-align: left;
+    font-size: 2rem;
+    padding: 25px;
+}
+
+/* FOOTER */
+
+footer{
+    background: #f3a000;
+    overflow-x: hidden;
+    padding: 14vmin 16vmin;
+}
+
+footer h2, h4{
+    font-family: var(--Slackey);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer .column i{
+    color: #F4F5DB
+}
+
+footer .column i+i{
+    padding: 0 0.5em;
+}
+
+footer p>span a{
+    text-decoration: none;
+}
+
+footer p>span a{
+    color: #F4F5DB;
+}
+
+
+/* STICKY CLASS */
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4d36ad;
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+/* BACKGROUND CURVE====BUBBLE COLOR */
+
+.bubble::before {
+    content: '';
+    border-top-left-radius: 400% 100%;
+    border-top-right-radius: 400% 100%;
+    position: absolute;
+    margin-top: 60px;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #f3a000;
+    height: 100%;
+
+}
+
+ .bg::before{
+    content: '';
+    position: absolute;
+    margin-bottom: 2.5rem;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #f3a000;
+    height: 100%;
+} 
